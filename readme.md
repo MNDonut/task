@@ -17,7 +17,7 @@ python manage.py createsuperuser
 python manage.py runserver
 
 Available endpoints:
-api/expenses/ - get list of expenses / create a new one
-api/expenses/{id}/ - get/update/delete a specific expense
-api/users/{id}/expenses/?start_date=...&end_date=... - get user's expenses for a specific period
-api/users/{id}/summary/ - get summary of user's transactions by categories
+- api/expenses/ - get list of expenses / create a new one
+- api/expenses/{id}/ - get/update/delete a specific expense
+- api/users/{id}/expenses/?start_date=...&end_date=... - get user's expenses for a specific period
+- api/users/{id}/summary/?month=... - get summary of user's transactions by categories for a specific month
